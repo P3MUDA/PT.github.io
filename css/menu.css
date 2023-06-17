@@ -1,0 +1,48 @@
+*, html{
+  margin: 0;
+  padding: 0;
+  font-family: Courier;
+  text-decoration: none;
+}
+.halaman{
+  width: 100%;
+  height: auto;
+}
+.container{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.container h1{
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.img-makanan{
+  padding-top: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.makanan img{
+  width: 100px;
+  border-radius: 10px;
+}
+
+.img-minuman{
+  padding-top: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.minuman img{
+  width: 100px;
+  border-radius: 10px;
+}

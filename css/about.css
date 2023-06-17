@@ -1,0 +1,122 @@
+*, html{
+  margin: 0;
+  padding: 0;
+  font-family: Courier;
+  text-decoration: none;
+}
+
+.halaman{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.halaman h1{
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-transform: uppercase;
+
+}
+.container{
+  padding-top: 30px;
+  background-color: black;
+  width:900px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.container h1{
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.img{
+  padding-bottom: 30px;
+}
+.img img{
+  width: 500px;
+  border-radius: 10px;
+}
+.container span{
+  color: white;
+  font-size: 20px;
+  line-height: 30px;  
+  padding: 20px;
+}
+
+.comtainer span h2{
+  text-transform: capitalize;
+  border-bottom: 2px solid white;
+}
+.container span p{
+  padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 720px) {
+
+  .halaman{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .halaman h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+  
+  }
+  .container{
+    padding-top: 30px;
+    background-color: black;
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+
+  .container h1{
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .img{
+    padding-bottom: 30px;
+  }
+  .img img{
+    width: 300px;
+    border-radius: 10px;
+  }
+  .container span{
+    color: white;
+    font-size: 15px;
+    line-height: 30px;  
+    padding: 20px;
+  }
+  
+  .comtainer span h2{
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+  }
+  .container span p{
+    padding-bottom: 10px;
+  }
+}
